@@ -1,0 +1,2 @@
+ALTER TABLE users
+    ADD COLUMN bio VARCHAR(160) NULL AFTER display_name;
